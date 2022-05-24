@@ -1,0 +1,11 @@
+.dashboard_container{
+    display: grid;
+    grid-template-columns:  .1fr auto ;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 1.4375rem;
+}
+
+.midsection{
+    box-sizing: border-box;
+}

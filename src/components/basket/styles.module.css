@@ -1,0 +1,154 @@
+.basketContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1.9375rem;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container h1{
+    font-size: 1.9375rem;
+    font-weight: 600;
+}
+
+.searchsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchsection i{
+    height: 2.375rem;
+    color: #E9E9E9;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 .625rem;
+}
+
+.searchsection input {
+    width: 15.875rem;
+    height: 2.375rem;
+    background: white;
+    outline: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-left: -2rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchsection input::placeholder{
+    color: #C7C3C3;
+}
+
+.cardSection{
+    display: grid;
+    grid-template-columns:  repeat(3,auto);
+    gap: 1.375rem 1.8125rem;
+}
+
+.basketSection{
+    margin-top: 2.5rem;
+}
+
+.basketSection header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.basketSection header h3{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.basketSection header button{
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    background: var(--secondary);
+    width: 8.125rem;
+}
+
+.linksContainer{
+    border-bottom: 1px solid var(--border);
+    padding-bottom: .4rem;
+    margin-bottom: 1.5rem;
+}
+
+.basketLinks,.basketLinks_active{
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-size: .9375rem;
+    font-weight: 500;
+    color:var(--lightest-grey) ;
+   
+}
+
+.basketLinks_active{
+    color: #56B1A0;
+    border-bottom: 1px solid #56B1A0;
+}
+
+.cartIcon{
+    width: 3.875rem;
+    height: 3.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -1px 3px 22px 3px rgba(141, 152, 152, 0.7);
+    background-color: var(--secondary);
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: -2rem;
+}
+
+.cartIcon p{
+    width: 1.0625rem;
+    height: 1.0625rem;
+    position: absolute;
+    top :-15%;
+    right: 0;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6875rem;
+    font-weight: 700;
+    color: black;
+}
+
+.basketCart{
+    position: fixed;
+    right: 0;
+}
+
+@keyframes slideAnimation {
+    0%{
+        transform: translateX();
+    }
+    25%{
+
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+
+    }
+}

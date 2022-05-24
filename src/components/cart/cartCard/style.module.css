@@ -1,0 +1,64 @@
+.cardCartContainer{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(4,auto) ;
+    row-gap: .625rem;
+    margin-top: .875rem;
+    background: rgba(86, 177, 160, 0.2);
+    border-radius: 13px;
+    padding: 1rem;
+}
+
+.CartIcon{
+    width: 4.125rem;
+    height: 4.125rem;
+    border-radius: 50%;
+    background-color: #C9E8D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartText small{
+    color: #514D4D;
+    font-size: .75rem;
+}
+
+.CartText h4{
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.cartSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cartSelect select{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .1875rem 0;
+    padding-left: .2rem;
+    border-radius: .3125rem;
+    font-weight: 700;
+    font-size: .8125rem;
+    cursor: pointer;
+}
+
+.cartInitial{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cartInitial p{
+    color: white;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+}

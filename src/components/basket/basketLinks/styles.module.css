@@ -1,0 +1,23 @@
+.emptystateContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.emptystateIcon{
+    width: 5.75rem;
+    height: 5.75rem;
+    border-radius: 50%;
+    background-color: rgba(84, 154, 154, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptystatesmall{
+    padding: 9px 0;
+    font-size: 16px;
+    color: #AAA8A8;
+    font-weight: 400;
+}

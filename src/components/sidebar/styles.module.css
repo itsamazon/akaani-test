@@ -1,0 +1,122 @@
+/* SIDEBAR SECTION */
+
+.sidebar_container{
+    padding: 2.125rem;
+    border-right: 2px solid var(--border) ;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.logo{
+ margin-bottom: 4rem;
+}
+
+.logo img{
+    width: 9rem;
+    object-fit: contain;
+}
+
+
+.navlink, .navlink_active{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: var(--nav-link);
+    font-size: 1rem;
+    margin-bottom: 1rem ;
+}
+
+.navlink p, .navlink_active p {
+    margin: .8125rem 0;
+    margin-left: .75rem;
+}
+
+.navlink_active{
+    padding-left: .875rem;
+    border-radius: .4375rem;
+    background-color: var(--secondary);
+    color: white;
+    width: 10rem;
+}
+
+.sidebar_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+    width: 11rem;
+}
+
+.profileImage{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: 1.75rem;
+    background-color: var(--secondary);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar_profile h5{
+    margin: 0;
+    margin-top:.2rem ;
+}
+
+.sidebar_profile small{
+    font-size: .75rem;
+    font-weight: 300;
+    color: var(--lightest-grey);
+    margin-bottom: 18px;
+}
+
+.logout{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    border: 1px solid var(--border) ;
+    border-radius: .3125rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* DISPLAY SIDEBAR SECTION */
+.displaySidebar{
+    right: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 1rem .625rem;
+    border-left: 2px solid var(--border);
+}
+
+.displaySidebar section{
+    margin-top: 1.5rem;
+    height: 11rem;
+}
+
+.displaySidebar section h3{
+    margin: 0;
+    font-size: .9375rem;
+    font-weight: 700;
+    margin-bottom: -.5rem;
+}
+
+.displaySidebar section small{
+    font-size: 10px;
+    font-weight: 400;
+    color: #AAA8A8;
+
+}
+
+.invites, .payments{
+    border-bottom: 1px solid var(--border);
+}
