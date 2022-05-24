@@ -9,13 +9,12 @@ import { cartStatus } from '../../store/actions/status';
 
 const Cart = () => {
     const status = useSelector((state) => state.cart.open)
-    console.log(status)
     const dispatch = useDispatch()
 
     return (
         <div
             className={styles.cartContainer}
-            style={status === false ? { display: "none" } : { display: "block" }}
+            style={status === false ? { display: "none" } : {}}
         >
             <header className={styles.cartHeader}>
                 <section className={styles.myCart}>
